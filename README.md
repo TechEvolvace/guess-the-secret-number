@@ -52,3 +52,5 @@
 
 ## Potential Additional Features to Implement
 * Competition mode (Player plays against three other computer players in a race to guess the secret number first!) 
+* Maybe have setting be in an interrogation room with four "detectives" extracting the correct secret number from a hacker suspect and whoever guessed the secret number first solves the case! 
+* Maybe give player the option to choose how many bots to compete against? 
