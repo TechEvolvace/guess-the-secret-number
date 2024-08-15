@@ -54,3 +54,9 @@
 * Competition mode (Player plays against three other computer players in a race to guess the secret number first!) 
 * Maybe have setting be in an interrogation room with four "detectives" extracting the correct secret number from a hacker suspect and whoever guessed the secret number first solves the case! 
 * Maybe give player the option to choose how many bots to compete against? 
+
+
+## What a Competition Mode may look like? 
+* By default, player will compete against three CPU players! 
+* First to guess the secret number (used the least number of attempts to guess the secret number correctly) wins in this game mode! 
+* Similar to other modes, player will specify a range for what the secret number can possibly be in, inclusively. 
