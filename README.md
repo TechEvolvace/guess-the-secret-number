@@ -60,3 +60,6 @@
 * By default, player will compete against three CPU players! 
 * First to guess the secret number (used the least number of attempts to guess the secret number correctly) wins in this game mode! 
 * Similar to other modes, player will specify a range for what the secret number can possibly be in, inclusively. 
+
+## Credits 
+* This Guess the Secret Number game developed in this repository is solely created by Phuc Dinh (a.k.a. TechEvolvace).
