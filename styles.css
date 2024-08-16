@@ -1,0 +1,43 @@
+/* Start Game Button */
+.start-game-button{
+    display: block;
+    width: 300px;
+    height: 200px; 
+    background-color: lightgreen;
+}
+
+.start-game-button:hover{
+    background-color: goldenrod;
+}
+
+/* Navigation button (Previous and Next buttons)*/
+.navigation-button{
+    display: block;
+    width: 200px;
+    height: 200px; 
+    background-color: lightgreen;
+}
+
+.navigation-button:hover{
+    background-color: goldenrod;
+}
+
+.select-game-mode{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.game-mode-button{
+    background-color: blue; 
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 2%; 
+}
+
+.game-mode-button:hover{
+    transform: scale(1.25);
+    background-color: lightblue;
+    color: black;
+}
