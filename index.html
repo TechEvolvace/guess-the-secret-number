@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the Secret Number Game</title>
+    <!-- Links the styles.css CSS file to this HTML file! -->
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <!-- Design the Game Title -->
+    <heading class="game-title-area">
+        <h1 class="game-title"> Guess the Secret Number! </h1>
+    </heading>
+
     <!-- Creating the buttons -->
     <aside>
         <button class="start-game-button">Start Game!</button>
@@ -52,7 +58,7 @@
             <br>
             <p>You get to decide how many maximum attempts you get!</p>
             <br>
-            <p>You can custom the game to any difficulty through deciding the number of attempts for the game!</p>
+            <p>You can custom the game to any difficulty through deciding the number of attempts you get for the game!</p>
         </button>
         <button class="game-mode-button">
             <h2>Best by Less!</h2>
@@ -62,5 +68,25 @@
             <p>Try to get the right number in the fewest number of attempts as best as you can!</p>
         </button>
     </article>
+
+    <!-- Design area for prompt questions to ask for the player, intended to show after player picks any one of the available modes! -->
+    <form>
+        <!-- Asks the player for a minimum number the secret number can be -->
+        <!-- Also need to check if the number entered here is LESS than the maximum number the plaeyr asks for -->
+        <span class="prompt-area">
+            <p>What is the minimum number the secret number can be?</p>
+            <input type="text" name="possible-minimum"><br>
+        <span>
+
+        <!-- Asks the player for a maximum number the secret number can be -->
+        <!-- Also need to check if the number entered here is GREATER than the minimum numbre the player asks for -->
+        <span class="prompt-area">
+            <p>What is the maximum number the secret number can be?</p>
+            <input type="text" name="possible-maximum"><br>
+        </span>
+    </form>
+
+    <!-- Links the script.js Javascript file to this HTML file! -->
+    <script src="./script.js"></script>
 </body>
 </html>

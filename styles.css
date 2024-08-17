@@ -41,3 +41,21 @@
     background-color: lightblue;
     color: black;
 }
+
+/* Game Title Area */
+.game-title-area{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100vw; 
+    height: 30vh; 
+    flex: 1 1 auto; 
+    border: 2px solid salmon; /* For CSS design testing purposes only! Will delete this in final draft of project!*/
+}
+
+/* Game Title Text */
+.game-title{
+    color:dodgerblue;
+    font-size: 8em;
+    border: 2px solid green;
+}
