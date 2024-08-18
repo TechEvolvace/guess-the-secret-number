@@ -42,6 +42,14 @@
     color: black;
 }
 
+/* Confirm button */
+.confirm-button{
+    display: block;
+    width: 250px;
+    height: 200px; 
+    background-color: lightgreen;
+}
+
 /* Game Title Area */
 .game-title-area{
     display: flex;

@@ -10,3 +10,13 @@
         This function to generate the random value should wait for the player to enter the two numbers! 
 
 */
+
+// This is to help see if the program has received user input 
+let minimum;
+let maximum; 
+
+document.getElementById("confirm-valid-ranges").onclick = function(){
+    minimum = document.getElementById("possible-minimum").value;
+        maximum = document.getElementById("possible-maximum").value;
+        document.getElementById("verify-range-message").innerHTML = `You entered ` + $(minimum) + ` as the minimum number and ` + $(maximum) + ` as the maximum number`;
+}
