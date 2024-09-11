@@ -65,7 +65,7 @@ body{
     width: 100vw; 
     height: 30vh; 
     flex: 1 1 auto; 
-    background-color: white;
+    background-color: transparent;
     /* border: 2px solid salmon;  For CSS design testing purposes only! Will delete this in final draft of project! */
 }
 
@@ -76,6 +76,6 @@ body{
 /* Game Title Text */
 .game-title{
     color:dodgerblue;
-    font-size: 8em;
-    /* border: 2px solid green; */
+    padding: 20px;
+    font-size: 4em;
 }
