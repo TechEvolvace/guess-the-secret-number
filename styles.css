@@ -61,7 +61,6 @@ body > aside.title-settings{
     grid-template-rows: 2fr repeat(auto, 1fr);
     grid-template-areas: 
         ".start-game-button .start-game-button";
-    border: 2px solid #adff2f;
     width: 80%;
     margin: 5% 0%;
 }
