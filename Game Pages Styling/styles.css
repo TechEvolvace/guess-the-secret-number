@@ -26,6 +26,7 @@ body{
     align-items: center;
     overflow-x: hidden;
     background-color: var(--webpage-background-color);
+    font-family: "Poppins", sans-serif; 
 }
 
 /* Game Title Area */
@@ -42,11 +43,13 @@ heading.game-title-area{
 }
 
 /* Game Title Text */
-heading.game-title-area > .game-title{
+heading.game-title-area > .game-title{ 
+    font-family: "Inter", Arial;
     color: var(--webpage-title-color);
     padding: 1rem;
     font-size: 4em;
     -webkit-text-stroke: 0.75px var(--webpage-text-border-color);
+    text-align: center;
 }
 
 /* Game Author Text */
