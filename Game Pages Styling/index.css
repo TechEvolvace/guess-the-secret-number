@@ -92,18 +92,3 @@ body > aside.title-settings{
     background-color: var(--game-button-hover-color);
 }
 
-/* Confirm button */
-.confirm-button{
-    display: block;
-    width: 250px;
-    height: 200px; 
-    background-color: lightgreen;
-}
-
-
-
-.prompt-area{
-    display: relative;
-    color: white; 
-}
-
