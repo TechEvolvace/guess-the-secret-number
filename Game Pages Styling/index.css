@@ -55,7 +55,6 @@ heading.game-title-area > .game-title{
     color: var(--webpage-title-color);
     padding: 1rem;
     font-size: 4em;
-    -webkit-text-stroke: 0.75px var(--webpage-text-border-color);
     text-align: center;
 }
 
@@ -75,10 +74,15 @@ body > aside.title-settings{
     margin: 5% 0%;
 }
 
+/* Area of the Start Game Button */
+#start-button{
+    display: flex;
+    justify-content: center;
+}
 
 /* Start Game Button */
 .start-game-button{
-    width: 50%;
+    width: 60%;
     justify-self: center;
     background-color: var(--game-button-color);
     height: 5rem;
