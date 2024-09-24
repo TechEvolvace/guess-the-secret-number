@@ -46,7 +46,8 @@ a{
 .select-game-modes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-gap: 5% 5%;
+    grid-gap: 1rem 1rem;
+    padding: 5%;
 }
 
 .game-mode-button{
@@ -78,7 +79,7 @@ a{
     background-color: var(--game-button-color);
     height: 5rem;
     font-size: 2rem;
-    margin: 2% 0%;
+    margin: 30px 0%;
     border-radius: 25px;
     border: transparent;
     cursor: pointer;
