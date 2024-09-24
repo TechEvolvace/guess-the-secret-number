@@ -55,13 +55,14 @@ heading.game-title-area > .game-title{
     color: var(--webpage-title-color);
     padding: 1rem;
     font-size: 4em;
-    -webkit-text-stroke: 0.75px var(--webpage-text-border-color);
     text-align: center;
+    text-shadow: 1px 0px 4px rgb(38, 106, 231);
 }
 
 /* Game Author Text */
 heading.game-title-area > .game-author{
     font-size: 3em;
+    text-shadow: 1px 0px 4px rgb(38, 106, 231);
 }
 
 /* Settings Area in Title Screen */
@@ -75,10 +76,15 @@ body > aside.title-settings{
     margin: 5% 0%;
 }
 
+/* Area of the Start Game Button */
+#start-button{
+    display: flex;
+    justify-content: center;
+}
 
 /* Start Game Button */
 .start-game-button{
-    width: 50%;
+    width: 60%;
     justify-self: center;
     background-color: var(--game-button-color);
     height: 5rem;
@@ -86,6 +92,7 @@ body > aside.title-settings{
     margin: 2% 0%;
     border-radius: 25px;
     border: transparent;
+    cursor: pointer;
 }
 
 .start-game-button:hover{

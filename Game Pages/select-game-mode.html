@@ -7,56 +7,118 @@
     <link rel="stylesheet" href="/Game Pages Styling/select-game-mode.css">
 </head>
 <body>
-    <nav>
-        <button class="navigation-button"><a href="/Game Pages/index.html">Back to Title Screen</a></button>
-    </nav>
+
+    <header class="page-heading">
+        <h1>Select A Game Mode</h1>
+    </header>
     
     <!-- Displaying the game modes -->
-    <article class="select-game-modes">
-        <button class="game-mode-button">
-            <h2>Beginner</h2>
-            <br>
-            <p>7 maximum attempts provided!</p>
-            <br>
-            <p>Lots of chances to get the right number!</p>
-        </button>
-        <button class="game-mode-button">
-            <h2>Intermediate</h2>
-            <br>
-            <p>5 maximum attempts provided!</p>
-            <br>
-            <p>Fair chance to get the right number!</p>
-        </button>
-        <button class="game-mode-button">
-            <h2>Pro</h2>
-            <br>
-            <p>3 maximum attempts provided!</p>
-            <br>
-            <p>Quite a challenge to get the right number!</p>
-        </button>
-        <button class="game-mode-button">
-            <h2>Ultimate</h2>
-            <br>
-            <p>1 maximum attempt provided!</p>
-            <br>
-            <p>The ultimate challenge to get the right number in one attempt!</p>
-        </button>
-        <button class="game-mode-button">
-            <h2>Custom</h2>
-            <br>
-            <p>You get to decide how many maximum attempts you get!</p>
-            <br>
-            <p>You can custom the game to any difficulty through deciding the number of attempts you get for the game!</p>
-        </button>
-        <button class="game-mode-button">
-            <h2>Best by Less!</h2>
-            <br>
-            <p>You get Unlimited attempts</p>
-            <br>
-            <p>Try to get the right number in the fewest number of attempts as best as you can!</p>
-        </button>
-    </article>
+    <main class="select-game-modes">
+        <a href="/Game Pages/secret-number-prompt.html" id="game-mode-link">
+            <button class="game-mode-button">
+                <mode-header class="game-mode-header">
+                    <mode-title class="game-mode-title">
+                        <h2>Beginner</h2>
+                    </mode-title>
+                    <mode-details class="game-mode-max-attempts-details">
+                        <p>7 maximum attempts provided!</p>
+                    </mode-details>
+                </mode-header>
+                <mode-details class="game-mode-details">
+                    <p>Lots of chances to get the right number!</p>
+                </mode-details>
+            </button>
+        </a>
 
+        <a href="/Game Pages/secret-number-prompt.html" id="game-mode-link">
+            <button class="game-mode-button">
+                <mode-header class="game-mode-header">
+                    <mode-title class="game-mode-title">
+                        <h2>Intermediate</h2>
+                    </mode-title>
+                    <mode-details class="game-mode-max-attempts-details">
+                        <p>5 maximum attempts provided!</p>
+                    </mode-details>
+                </mode-header>
+                <mode-details class="game-mode-details">
+                    <p>Fair chance to get the right number!</p>
+                </mode-details>
+            </button>
+        </a>
+
+        <a href="/Game Pages/secret-number-prompt.html" id="game-mode-link">
+            <button class="game-mode-button">
+                <mode-header class="game-mode-header">
+                    <mode-title class="game-mode-title">
+                        <h2>Pro</h2>
+                    </mode-title>
+                    <mode-details class="game-mode-max-attempts-details">
+                        <p>3 maximum attempts provided!</p>
+                    </mode-details>
+                </mode-header>
+                <mode-details class="game-mode-details">
+                    <p>Quite a challenge to get the right number!</p>
+                </mode-details>
+            </button>
+        </a>
+
+        <a href="/Game Pages/secret-number-prompt.html" id="game-mode-link">
+            <button class="game-mode-button">
+                <mode-header class="game-mode-header">
+                    <mode-title class="game-mode-title">
+                        <h2>Ultimate</h2>
+                    </mode-title>
+                    <mode-details class="game-mode-max-attempts-details">
+                        <p>1 maximum attempt provided!</p>
+                    </mode-details>
+                </mode-header>
+                <mode-details class="game-mode-details">
+                    <p>The ultimate challenge to get the right number in one attempt!</p>
+                </mode-details>
+            </button>
+        </a>
+
+        <a href="/Game Pages/secret-number-prompt.html" id="game-mode-link">
+            <button class="game-mode-button">
+                <mode-header class="game-mode-header">
+                    <mode-title class="game-mode-title">
+                        <h2>Custom</h2>
+                    </mode-title>
+                    <mode-details class="game-mode-max-attempts-details">
+                        <p>You get to decide how many maximum attempts you get!</p>
+                    </mode-details>
+                </mode-header>
+                <mode-details class="game-mode-details">
+                    <p>You can custom the game to any difficulty through deciding the number of attempts you can get for the game!</p>
+                </mode-details>
+            </button>
+        </a>
+
+        <a href="/Game Pages/secret-number-prompt.html" id="game-mode-link">
+            <button class="game-mode-button">
+                <mode-header class="game-mode-header">
+                    <mode-title class="game-mode-title">
+                        <h2>Best by Less!</h2>
+                    </mode-title>
+                    <mode-details class="game-mode-max-attempts-details">
+                        <p>Unlimited attempts provided!</p>
+                    </mode-details>
+                </mode-header>
+                <mode-details class="game-mode-details">
+                    <p>
+                        Try to get the right number in the fewest number of attempts as best as you can,
+                        but your maximum number of attempts is still unlimited!
+                    </p>
+                </mode-details>
+            </button>
+        </a>
+
+    </main>
+
+    <nav class="navigation-bar">
+        <a href="/Game Pages/index.html" id="previous-page-button"><button class="navigation-button">Back to Title Screen</button></a>
+    </nav>
+    
     <script src="/script.js"></script>
 </body>
 </html>
