@@ -25,7 +25,16 @@ body{
     align-items: center;
     overflow-x: hidden;
     background-color: var(--webpage-background-color);
-    font-family: "Poppins", sans-serif; 
+    font-family: 'Poppins'; 
+}
+
+.page-heading{
+    font-family: 'Inter 900';
+    font-size: 150%;
+    color: white;
+    border: 2px solid red;
+    padding: 2%;
+    margin: 4% 0px;
 }
 
 /* Design the hyperlink or URL responsible for pages navigation! */
