@@ -56,11 +56,13 @@ heading.game-title-area > .game-title{
     padding: 1rem;
     font-size: 4em;
     text-align: center;
+    text-shadow: 1px 0px 4px rgb(38, 106, 231);
 }
 
 /* Game Author Text */
 heading.game-title-area > .game-author{
     font-size: 3em;
+    text-shadow: 1px 0px 4px rgb(38, 106, 231);
 }
 
 /* Settings Area in Title Screen */
