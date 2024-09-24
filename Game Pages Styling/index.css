@@ -92,6 +92,7 @@ body > aside.title-settings{
     margin: 2% 0%;
     border-radius: 25px;
     border: transparent;
+    cursor: pointer;
 }
 
 .start-game-button:hover{
