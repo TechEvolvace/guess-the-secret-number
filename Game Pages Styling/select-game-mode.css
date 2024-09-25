@@ -76,6 +76,15 @@ main.select-game-modes > a > button.game-mode-button:hover{
     background-color: var(--game-mode-button-color-hover);
 }
 
+/* Designing the text inside the game mode buttons */
+.game-mode-header{
+    padding: 5%;
+}
+
+.game-mode-max-attempts-details{
+    padding-top: 5px;
+}
+
 /* Area containing the Back to Title Screen button */
 nav > a#previous-page-button{
     display: flex;
