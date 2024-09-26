@@ -79,10 +79,22 @@ main.select-game-modes > a > button.game-mode-button:hover{
 /* Designing the text inside the game mode buttons */
 .game-mode-header{
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-mode-title{
+    font-size: 110%;
+    color: rgb(228, 224, 216);
 }
 
 .game-mode-max-attempts-details{
-    padding-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    font-size: 130%;
+    text-shadow: 0px 0.5px 2px rgba(245, 245, 245, 0.758);
 }
 
 /* Area containing the Back to Title Screen button */
